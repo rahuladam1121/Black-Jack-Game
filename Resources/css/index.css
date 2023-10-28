@@ -2,10 +2,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-image: url("../images/table.jpg");
-    width: 400px;
+    width: 460px;
     background-size: cover;
     color: white;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -16,12 +19,15 @@ h1 {
     font-style: italic;    
 }
 
-.start-btn{
+button {
     color: #016f32;
     width: 150px;
     background: goldenrod;
-    padding: 5px 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
